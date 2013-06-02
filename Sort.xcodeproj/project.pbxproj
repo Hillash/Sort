@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5B29858C175B9061002FBCAE /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B29858B175B9061002FBCAE /* main.c */; };
 		5B29858E175B9061002FBCAE /* Sort.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5B29858D175B9061002FBCAE /* Sort.1 */; };
+		5B298595175B9077002FBCAE /* quickSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B298594175B9077002FBCAE /* quickSort.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		5B298588175B9061002FBCAE /* Sort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Sort; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B29858B175B9061002FBCAE /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		5B29858D175B9061002FBCAE /* Sort.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Sort.1; sourceTree = "<group>"; };
+		5B298594175B9077002FBCAE /* quickSort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = quickSort.c; sourceTree = "<group>"; };
+		5B298596175B9086002FBCAE /* quickSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = quickSort.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 			children = (
 				5B29858B175B9061002FBCAE /* main.c */,
 				5B29858D175B9061002FBCAE /* Sort.1 */,
+				5B298594175B9077002FBCAE /* quickSort.c */,
+				5B298596175B9086002FBCAE /* quickSort.h */,
 			);
 			path = Sort;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B29858C175B9061002FBCAE /* main.c in Sources */,
+				5B298595175B9077002FBCAE /* quickSort.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
